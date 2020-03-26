@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Catch the hacker!</title>
+        <style>
+            #mymap {
+                width: 600px;
+                height: 400px;
+                border: 1px solid #000;
+            }
+        </style>
+        <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/build/ol.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
+        <link rel="stylesheet" href="./main.css" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+
+            <div>
+                <img src="./assets/hacker.png">
+                <h1 class="title">Catch the Hacker!</h1>
+            </div>
+            <div class="left">
+                <div id="map"></div>
+            </div>
+            <div class="right">
+                <div id="quiz">
+                    <div id="question">
+                        The Hacker has spotted taking pictures of the British Crown Jewel
+                    </div>
+                    <div id="warning">
+                        Hurry! The Hacker will escape in <div id="timer"></div> seconds
+                    </div>
+
+                </div>
+                <div id="start">
+                    <section class="text">START</section>
+                </div>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

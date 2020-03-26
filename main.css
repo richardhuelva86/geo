@@ -1,0 +1,48 @@
+body{
+    font-family: Gotham,Verdana, arial, sans-serif;
+    color: #222;
+}
+
+#container {
+    margin-left: 100px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+    position: relative;
+    height: 300px;
+    width: 450px;
+}
+
+#map {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-weight: bold;
+    display: inline-block;
+}
+
+#quiz {
+    display: none;
+}
+
+#start {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
